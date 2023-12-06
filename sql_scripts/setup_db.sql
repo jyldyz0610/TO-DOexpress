@@ -1,0 +1,7 @@
+CREATE DATABASE IF NOT EXISTS todoexpress;
+
+CREATE USER IF NOT EXISTS 'todo'@'localhost' IDENTIFIED BY '1234';
+
+GRANT ALL PRIVILEGES ON todosexpress.* TO 'todo'@'localhost';
+
+FLUSH PRIVILEGES;

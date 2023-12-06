@@ -1,0 +1,7 @@
+USE todoexpress;
+
+CREATE TABLE IF NOT EXISTS todos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    item VARCHAR(255) NOT NULL,
+    stat VARCHAR(255) NOT NULL
+);
